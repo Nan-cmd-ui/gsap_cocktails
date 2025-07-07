@@ -54,9 +54,8 @@ const Cocktails = () => {
                         ))}
                     </ul>
                 </div>
-
                 <div className="loved">
-                    <h2 className="text-2xl font-bold mb-4">Most Popular mocktails:</h2>
+                    <h2 className="text-2xl font-bold mb-4">Most Loved mocktails:</h2>
                     <ul className="space-y-4">
                         {mockTailLists.map(({ name, country, detail, price }) => (
                             <li key={name} className="flex justify-between items-start">
